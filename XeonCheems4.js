@@ -8841,6 +8841,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
+			footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Initial Features Of Bot 🦄",
