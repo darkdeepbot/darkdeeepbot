@@ -8993,7 +8993,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 case 'allmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-var unicorn = await getBuffer(picak+'All Menu')
+var unicorn =
 await XeonBotInc.sendMessage(from, `╔═══════✪「 OWNER 」	
 ╠ ${prefix}self
 ╠ ${prefix}public
