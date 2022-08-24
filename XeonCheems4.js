@@ -9712,7 +9712,7 @@ reply (`╔═══════✪「 OWNER 」
 ╠ ${prefix}donate
 ╠ ${prefix}request
 ╠ ${prefix}report [bug]
-╚═════════════✪` )
+╚═════════════✪` `[{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}]`)
 break
 case 'ownermenu':
 	   if (isBan) return reply(mess.ban)
